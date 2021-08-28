@@ -7,6 +7,7 @@
 - native_window: Use `release`/`acquire` for `Drop` and `Clone` respectively. (#207)
 - **Breaking:** audio: Rename from `aaudio` to `audio` and drop `A` prefix. (#273)
 - Implement `HasRawWindowHandle` directly on `NativeWindow` (#274)
+- native_window: Add `format()` getter and `set_buffers_geometry()` setter (#276)
 
 # 0.6.0 (2022-01-05)
 
