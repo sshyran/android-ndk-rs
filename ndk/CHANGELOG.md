@@ -9,7 +9,7 @@
 - Implement `HasRawWindowHandle` directly on `NativeWindow` (#274)
 - native_window: Add `format()` getter and `set_buffers_geometry()` setter (#276)
 - native_activity: Add `set_window_format()` setter (#277)
-
+- native_activity: Add `set_window_flags()` to change window behavior (#278)
 # 0.6.0 (2022-01-05)
 
 - **Breaking:** Upgrade to [`ndk-sys 0.3.0`](../ndk-sys/CHANGELOG.md#030-2022-01-05) and migrate to `jni-sys` types that it now directly uses in its bindings. (#209 / #214)
